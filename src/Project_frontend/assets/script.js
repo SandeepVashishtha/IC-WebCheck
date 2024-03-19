@@ -10,7 +10,6 @@ function performOSINT() {
         alert('Please enter a valid URL');
         return;
     }
-
     // Send a POST request to the backend with the URL
     fetch(backendEndpoint, {
         method: 'POST',
